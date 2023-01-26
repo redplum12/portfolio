@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html , body{
+    width: 1920px;
+    height: 1080px;
+    scroll-behavior: smooth;
+    max-width: 768px;
+}
+ul{
+    list-style: none;
+}
+a:link , a:visited{
+    text-decoration: none;
+    color: white;
+}
+header{
+    width:5%;
+    height: 200px;
+    position: fixed;
+    z-index: 2;
+    background-color: gray;
+    opacity: 47%;
+    right: 0;
+    top: 20%;
+}
+header ul{
+    width: 100%;
+    height: 100%;
+}
+header li{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+main section:nth-child(1){
+    background-color: #333;
+    width: 1920px;
+    height: 1080px;
+}
+main section:nth-child(1) h2{
+    color: white;
+    font-size: 64px;
+    padding-top: 50px;
+}
+main section:nth-child(1) h2:nth-child(1){
+    padding-top: 300px;
+}
+main section:nth-child(1) p{
+    color: white;
+    padding-left: 47%;
+    padding-top: 10%;
+}
+main section:nth-child(1) .scr{
+    padding-left: 47.8%;
+    padding-top: 1%;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: scr;
+}
+@keyframes scr{
+    0%{padding-top:1%;}
+    100%{padding-top:3%;}
+}
+main section:nth-child(2){
+    background-color: lightcoral;
+    position: relative;
+    width: 1920px;
+    height: 768px;
+}
+
+main section:nth-child(3){
+    background-color: lightcyan;
+    width: 1920px;
+    height: 400px;
+    position: relative;
+}
+main section:nth-child(3) p:nth-child(1){
+    padding-left: 47%;
+    font-size: 32px;
+}
+main section:nth-child(4){
+    background-color: white;
+    width: 1920px;
+    height: 768px;
+}
+main section:nth-child(5){
+    background-color: lightgreen;
+    width: 1920px;
+    height: 150px;
+}
